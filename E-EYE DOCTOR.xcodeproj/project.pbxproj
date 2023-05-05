@@ -7,23 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AE7D0BA2A04C1E6008D7D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0B92A04C1E6008D7D95 /* AppDelegate.swift */; };
-		2AE7D0BC2A04C1E6008D7D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0BB2A04C1E6008D7D95 /* SceneDelegate.swift */; };
-		2AE7D0BE2A04C1E6008D7D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0BD2A04C1E6008D7D95 /* ViewController.swift */; };
-		2AE7D0C12A04C1E6008D7D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7D0BF2A04C1E6008D7D95 /* Main.storyboard */; };
-		2AE7D0C32A04C1E8008D7D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7D0C22A04C1E8008D7D95 /* Assets.xcassets */; };
-		2AE7D0C62A04C1E8008D7D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7D0C42A04C1E8008D7D95 /* LaunchScreen.storyboard */; };
+		2AE7D0CF2A04C211008D7D95 /* CorrnerRaduisEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0CE2A04C211008D7D95 /* CorrnerRaduisEX.swift */; };
+		2AE7D0E72A04C22E008D7D95 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0D22A04C22D008D7D95 /* MenuTableViewCell.swift */; };
+		2AE7D0E82A04C22E008D7D95 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0D32A04C22D008D7D95 /* MenuVC.swift */; };
+		2AE7D0E92A04C22E008D7D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0D52A04C22D008D7D95 /* ViewController.swift */; };
+		2AE7D0EA2A04C22E008D7D95 /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0D82A04C22D008D7D95 /* SignupModel.swift */; };
+		2AE7D0EB2A04C22E008D7D95 /* SignupApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0D92A04C22D008D7D95 /* SignupApi.swift */; };
+		2AE7D0EC2A04C22E008D7D95 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0DA2A04C22D008D7D95 /* SignupVC.swift */; };
+		2AE7D0ED2A04C22E008D7D95 /* LoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0DC2A04C22D008D7D95 /* LoginApi.swift */; };
+		2AE7D0EE2A04C22E008D7D95 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0DD2A04C22D008D7D95 /* LoginModel.swift */; };
+		2AE7D0EF2A04C22E008D7D95 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0DE2A04C22D008D7D95 /* LoginVC.swift */; };
+		2AE7D0F02A04C22E008D7D95 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E02A04C22D008D7D95 /* SearchViewController.swift */; };
+		2AE7D0F12A04C22E008D7D95 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E12A04C22D008D7D95 /* HomeViewController.swift */; };
+		2AE7D0F22A04C22E008D7D95 /* EyeScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E22A04C22D008D7D95 /* EyeScanningViewController.swift */; };
+		2AE7D0F32A04C22E008D7D95 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E32A04C22D008D7D95 /* DownloadsViewController.swift */; };
+		2AE7D0F42A04C22E008D7D95 /* YourEEyeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E42A04C22D008D7D95 /* YourEEyeViewController.swift */; };
+		2AE7D0F52A04C22E008D7D95 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E52A04C22D008D7D95 /* MainTabBarViewController.swift */; };
+		2AE7D0F62A04C22E008D7D95 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E62A04C22D008D7D95 /* ProfileViewController.swift */; };
+		2AE7D0FC2A04C24A008D7D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7D0F82A04C24A008D7D95 /* LaunchScreen.storyboard */; };
+		2AE7D0FD2A04C24A008D7D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7D0FA2A04C24A008D7D95 /* Main.storyboard */; };
+		2AE7D1012A04C254008D7D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0FF2A04C254008D7D95 /* AppDelegate.swift */; };
+		2AE7D1022A04C254008D7D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1002A04C254008D7D95 /* SceneDelegate.swift */; };
+		2AE7D1042A04C943008D7D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7D1032A04C943008D7D95 /* Assets.xcassets */; };
+		2AE7D1062A04E7FB008D7D95 /* Maintabbarvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1052A04E7FB008D7D95 /* Maintabbarvc.swift */; };
+		2AE7D10A2A04FDF9008D7D95 /* OptometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1092A04FDF9008D7D95 /* OptometryViewController.swift */; };
+		2AE7D10D2A04FE6B008D7D95 /* EyeCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D10C2A04FE6B008D7D95 /* EyeCareViewController.swift */; };
+		2AE7D1102A04FEA8008D7D95 /* EyeRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D10F2A04FEA8008D7D95 /* EyeRecordViewController.swift */; };
+		2AE7D1132A0523D5008D7D95 /* ReadyTestP1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1122A0523D5008D7D95 /* ReadyTestP1.swift */; };
+		2AE7D1152A0523E3008D7D95 /* ReadyTestP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1142A0523E3008D7D95 /* ReadyTestP2.swift */; };
+		2AE7D1172A0523F8008D7D95 /* ReadyTestP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1162A0523F8008D7D95 /* ReadyTestP3.swift */; };
+		2AE7D11A2A0565FE008D7D95 /* MedicalRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1192A0565FE008D7D95 /* MedicalRecordVC.swift */; };
+		2AE7D11C2A056B49008D7D95 /* PDFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D11B2A056B49008D7D95 /* PDFVC.swift */; };
+		2AE7D11E2A057380008D7D95 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D11D2A057380008D7D95 /* Support.swift */; };
+		2BE3E6CE2DD53A3A7233AB0B /* Pods_E_EYE_DOCTOR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CB96A4EE672510FEC1BC20 /* Pods_E_EYE_DOCTOR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A025348059D52F8168BD96B /* Pods-E-EYE DOCTOR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-EYE DOCTOR.release.xcconfig"; path = "Target Support Files/Pods-E-EYE DOCTOR/Pods-E-EYE DOCTOR.release.xcconfig"; sourceTree = "<group>"; };
 		2AE7D0B62A04C1E6008D7D95 /* E-EYE DOCTOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-EYE DOCTOR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AE7D0B92A04C1E6008D7D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AE7D0BB2A04C1E6008D7D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AE7D0BD2A04C1E6008D7D95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2AE7D0C02A04C1E6008D7D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2AE7D0C22A04C1E8008D7D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2AE7D0C52A04C1E8008D7D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AE7D0C72A04C1E8008D7D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE7D0CE2A04C211008D7D95 /* CorrnerRaduisEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrnerRaduisEX.swift; sourceTree = "<group>"; };
+		2AE7D0D22A04C22D008D7D95 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		2AE7D0D32A04C22D008D7D95 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		2AE7D0D52A04C22D008D7D95 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AE7D0D82A04C22D008D7D95 /* SignupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		2AE7D0D92A04C22D008D7D95 /* SignupApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupApi.swift; sourceTree = "<group>"; };
+		2AE7D0DA2A04C22D008D7D95 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		2AE7D0DC2A04C22D008D7D95 /* LoginApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginApi.swift; sourceTree = "<group>"; };
+		2AE7D0DD2A04C22D008D7D95 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		2AE7D0DE2A04C22D008D7D95 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2AE7D0E02A04C22D008D7D95 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2AE7D0E12A04C22D008D7D95 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2AE7D0E22A04C22D008D7D95 /* EyeScanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeScanningViewController.swift; sourceTree = "<group>"; };
+		2AE7D0E32A04C22D008D7D95 /* DownloadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		2AE7D0E42A04C22D008D7D95 /* YourEEyeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourEEyeViewController.swift; sourceTree = "<group>"; };
+		2AE7D0E52A04C22D008D7D95 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		2AE7D0E62A04C22D008D7D95 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2AE7D0F92A04C24A008D7D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AE7D0FB2A04C24A008D7D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AE7D0FF2A04C254008D7D95 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AE7D1002A04C254008D7D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AE7D1032A04C943008D7D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AE7D1052A04E7FB008D7D95 /* Maintabbarvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maintabbarvc.swift; sourceTree = "<group>"; };
+		2AE7D1092A04FDF9008D7D95 /* OptometryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptometryViewController.swift; sourceTree = "<group>"; };
+		2AE7D10C2A04FE6B008D7D95 /* EyeCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCareViewController.swift; sourceTree = "<group>"; };
+		2AE7D10F2A04FEA8008D7D95 /* EyeRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeRecordViewController.swift; sourceTree = "<group>"; };
+		2AE7D1122A0523D5008D7D95 /* ReadyTestP1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyTestP1.swift; sourceTree = "<group>"; };
+		2AE7D1142A0523E3008D7D95 /* ReadyTestP2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyTestP2.swift; sourceTree = "<group>"; };
+		2AE7D1162A0523F8008D7D95 /* ReadyTestP3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyTestP3.swift; sourceTree = "<group>"; };
+		2AE7D1192A0565FE008D7D95 /* MedicalRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecordVC.swift; sourceTree = "<group>"; };
+		2AE7D11B2A056B49008D7D95 /* PDFVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFVC.swift; sourceTree = "<group>"; };
+		2AE7D11D2A057380008D7D95 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		83CB96A4EE672510FEC1BC20 /* Pods_E_EYE_DOCTOR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_EYE_DOCTOR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF07202318EB3C9FBDCBC799 /* Pods-E-EYE DOCTOR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-EYE DOCTOR.debug.xcconfig"; path = "Target Support Files/Pods-E-EYE DOCTOR/Pods-E-EYE DOCTOR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +87,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE3E6CE2DD53A3A7233AB0B /* Pods_E_EYE_DOCTOR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23BE6C14C1107E41E9100E15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83CB96A4EE672510FEC1BC20 /* Pods_E_EYE_DOCTOR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2AE7D0AD2A04C1E6008D7D95 = {
 			isa = PBXGroup;
 			children = (
 				2AE7D0B82A04C1E6008D7D95 /* E-EYE DOCTOR */,
 				2AE7D0B72A04C1E6008D7D95 /* Products */,
+				D145C60D58E6BC64774754B3 /* Pods */,
+				23BE6C14C1107E41E9100E15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +123,170 @@
 		2AE7D0B82A04C1E6008D7D95 /* E-EYE DOCTOR */ = {
 			isa = PBXGroup;
 			children = (
-				2AE7D0B92A04C1E6008D7D95 /* AppDelegate.swift */,
-				2AE7D0BB2A04C1E6008D7D95 /* SceneDelegate.swift */,
-				2AE7D0BD2A04C1E6008D7D95 /* ViewController.swift */,
-				2AE7D0BF2A04C1E6008D7D95 /* Main.storyboard */,
-				2AE7D0C22A04C1E8008D7D95 /* Assets.xcassets */,
-				2AE7D0C42A04C1E8008D7D95 /* LaunchScreen.storyboard */,
+				2AE7D0FE2A04C254008D7D95 /* core */,
+				2AE7D0F72A04C24A008D7D95 /* Recourses */,
+				2AE7D0D02A04C22D008D7D95 /* Views */,
+				2AE7D0CD2A04C211008D7D95 /* Extentions */,
 				2AE7D0C72A04C1E8008D7D95 /* Info.plist */,
 			);
 			path = "E-EYE DOCTOR";
+			sourceTree = "<group>";
+		};
+		2AE7D0CD2A04C211008D7D95 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D0CE2A04C211008D7D95 /* CorrnerRaduisEX.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		2AE7D0D02A04C22D008D7D95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D1182A0565BB008D7D95 /* Medical Record */,
+				2AE7D1112A052341008D7D95 /* ReadytoTest */,
+				2AE7D10E2A04FE97008D7D95 /* EyeRecord */,
+				2AE7D10B2A04FE4B008D7D95 /* EyeCare */,
+				2AE7D1082A04FDEA008D7D95 /* Optometry */,
+				2AE7D0D12A04C22D008D7D95 /* MenuVC */,
+				2AE7D0D42A04C22D008D7D95 /* Home */,
+				2AE7D0D62A04C22D008D7D95 /* Auth */,
+				2AE7D0DF2A04C22D008D7D95 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AE7D0D12A04C22D008D7D95 /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D0D22A04C22D008D7D95 /* MenuTableViewCell.swift */,
+				2AE7D0D32A04C22D008D7D95 /* MenuVC.swift */,
+				2AE7D11D2A057380008D7D95 /* Support.swift */,
+			);
+			path = MenuVC;
+			sourceTree = "<group>";
+		};
+		2AE7D0D42A04C22D008D7D95 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D0D52A04C22D008D7D95 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2AE7D0D62A04C22D008D7D95 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D0D72A04C22D008D7D95 /* SignupVC */,
+				2AE7D0DB2A04C22D008D7D95 /* LoginVC */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		2AE7D0D72A04C22D008D7D95 /* SignupVC */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D0D82A04C22D008D7D95 /* SignupModel.swift */,
+				2AE7D0D92A04C22D008D7D95 /* SignupApi.swift */,
+				2AE7D0DA2A04C22D008D7D95 /* SignupVC.swift */,
+			);
+			path = SignupVC;
+			sourceTree = "<group>";
+		};
+		2AE7D0DB2A04C22D008D7D95 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D0DC2A04C22D008D7D95 /* LoginApi.swift */,
+				2AE7D0DD2A04C22D008D7D95 /* LoginModel.swift */,
+				2AE7D0DE2A04C22D008D7D95 /* LoginVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		2AE7D0DF2A04C22D008D7D95 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D0E02A04C22D008D7D95 /* SearchViewController.swift */,
+				2AE7D0E12A04C22D008D7D95 /* HomeViewController.swift */,
+				2AE7D0E22A04C22D008D7D95 /* EyeScanningViewController.swift */,
+				2AE7D0E32A04C22D008D7D95 /* DownloadsViewController.swift */,
+				2AE7D0E42A04C22D008D7D95 /* YourEEyeViewController.swift */,
+				2AE7D0E52A04C22D008D7D95 /* MainTabBarViewController.swift */,
+				2AE7D0E62A04C22D008D7D95 /* ProfileViewController.swift */,
+				2AE7D1052A04E7FB008D7D95 /* Maintabbarvc.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2AE7D0F72A04C24A008D7D95 /* Recourses */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D1032A04C943008D7D95 /* Assets.xcassets */,
+				2AE7D0F82A04C24A008D7D95 /* LaunchScreen.storyboard */,
+				2AE7D0FA2A04C24A008D7D95 /* Main.storyboard */,
+			);
+			path = Recourses;
+			sourceTree = "<group>";
+		};
+		2AE7D0FE2A04C254008D7D95 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D0FF2A04C254008D7D95 /* AppDelegate.swift */,
+				2AE7D1002A04C254008D7D95 /* SceneDelegate.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		2AE7D1082A04FDEA008D7D95 /* Optometry */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D1092A04FDF9008D7D95 /* OptometryViewController.swift */,
+			);
+			path = Optometry;
+			sourceTree = "<group>";
+		};
+		2AE7D10B2A04FE4B008D7D95 /* EyeCare */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D10C2A04FE6B008D7D95 /* EyeCareViewController.swift */,
+			);
+			path = EyeCare;
+			sourceTree = "<group>";
+		};
+		2AE7D10E2A04FE97008D7D95 /* EyeRecord */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D10F2A04FEA8008D7D95 /* EyeRecordViewController.swift */,
+			);
+			path = EyeRecord;
+			sourceTree = "<group>";
+		};
+		2AE7D1112A052341008D7D95 /* ReadytoTest */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D1122A0523D5008D7D95 /* ReadyTestP1.swift */,
+				2AE7D1142A0523E3008D7D95 /* ReadyTestP2.swift */,
+				2AE7D1162A0523F8008D7D95 /* ReadyTestP3.swift */,
+			);
+			path = ReadytoTest;
+			sourceTree = "<group>";
+		};
+		2AE7D1182A0565BB008D7D95 /* Medical Record */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7D1192A0565FE008D7D95 /* MedicalRecordVC.swift */,
+				2AE7D11B2A056B49008D7D95 /* PDFVC.swift */,
+			);
+			path = "Medical Record";
+			sourceTree = "<group>";
+		};
+		D145C60D58E6BC64774754B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF07202318EB3C9FBDCBC799 /* Pods-E-EYE DOCTOR.debug.xcconfig */,
+				1A025348059D52F8168BD96B /* Pods-E-EYE DOCTOR.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AE7D0CA2A04C1E8008D7D95 /* Build configuration list for PBXNativeTarget "E-EYE DOCTOR" */;
 			buildPhases = (
+				5466843A2B03AE2B3DA18C72 /* [CP] Check Pods Manifest.lock */,
 				2AE7D0B22A04C1E6008D7D95 /* Sources */,
 				2AE7D0B32A04C1E6008D7D95 /* Frameworks */,
 				2AE7D0B42A04C1E6008D7D95 /* Resources */,
+				B66305B40F65D4E7A524E7B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,42 +349,110 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE7D0C62A04C1E8008D7D95 /* LaunchScreen.storyboard in Resources */,
-				2AE7D0C32A04C1E8008D7D95 /* Assets.xcassets in Resources */,
-				2AE7D0C12A04C1E6008D7D95 /* Main.storyboard in Resources */,
+				2AE7D0FC2A04C24A008D7D95 /* LaunchScreen.storyboard in Resources */,
+				2AE7D1042A04C943008D7D95 /* Assets.xcassets in Resources */,
+				2AE7D0FD2A04C24A008D7D95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5466843A2B03AE2B3DA18C72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-EYE DOCTOR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66305B40F65D4E7A524E7B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-EYE DOCTOR/Pods-E-EYE DOCTOR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-EYE DOCTOR/Pods-E-EYE DOCTOR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-EYE DOCTOR/Pods-E-EYE DOCTOR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2AE7D0B22A04C1E6008D7D95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE7D0BE2A04C1E6008D7D95 /* ViewController.swift in Sources */,
-				2AE7D0BA2A04C1E6008D7D95 /* AppDelegate.swift in Sources */,
-				2AE7D0BC2A04C1E6008D7D95 /* SceneDelegate.swift in Sources */,
+				2AE7D11A2A0565FE008D7D95 /* MedicalRecordVC.swift in Sources */,
+				2AE7D1172A0523F8008D7D95 /* ReadyTestP3.swift in Sources */,
+				2AE7D0EB2A04C22E008D7D95 /* SignupApi.swift in Sources */,
+				2AE7D0F02A04C22E008D7D95 /* SearchViewController.swift in Sources */,
+				2AE7D0F32A04C22E008D7D95 /* DownloadsViewController.swift in Sources */,
+				2AE7D10D2A04FE6B008D7D95 /* EyeCareViewController.swift in Sources */,
+				2AE7D0EC2A04C22E008D7D95 /* SignupVC.swift in Sources */,
+				2AE7D1102A04FEA8008D7D95 /* EyeRecordViewController.swift in Sources */,
+				2AE7D0E72A04C22E008D7D95 /* MenuTableViewCell.swift in Sources */,
+				2AE7D0EA2A04C22E008D7D95 /* SignupModel.swift in Sources */,
+				2AE7D0EF2A04C22E008D7D95 /* LoginVC.swift in Sources */,
+				2AE7D1152A0523E3008D7D95 /* ReadyTestP2.swift in Sources */,
+				2AE7D0F62A04C22E008D7D95 /* ProfileViewController.swift in Sources */,
+				2AE7D11E2A057380008D7D95 /* Support.swift in Sources */,
+				2AE7D0EE2A04C22E008D7D95 /* LoginModel.swift in Sources */,
+				2AE7D10A2A04FDF9008D7D95 /* OptometryViewController.swift in Sources */,
+				2AE7D0ED2A04C22E008D7D95 /* LoginApi.swift in Sources */,
+				2AE7D0F52A04C22E008D7D95 /* MainTabBarViewController.swift in Sources */,
+				2AE7D1062A04E7FB008D7D95 /* Maintabbarvc.swift in Sources */,
+				2AE7D0CF2A04C211008D7D95 /* CorrnerRaduisEX.swift in Sources */,
+				2AE7D1012A04C254008D7D95 /* AppDelegate.swift in Sources */,
+				2AE7D0E92A04C22E008D7D95 /* ViewController.swift in Sources */,
+				2AE7D11C2A056B49008D7D95 /* PDFVC.swift in Sources */,
+				2AE7D1132A0523D5008D7D95 /* ReadyTestP1.swift in Sources */,
+				2AE7D0E82A04C22E008D7D95 /* MenuVC.swift in Sources */,
+				2AE7D0F12A04C22E008D7D95 /* HomeViewController.swift in Sources */,
+				2AE7D1022A04C254008D7D95 /* SceneDelegate.swift in Sources */,
+				2AE7D0F42A04C22E008D7D95 /* YourEEyeViewController.swift in Sources */,
+				2AE7D0F22A04C22E008D7D95 /* EyeScanningViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2AE7D0BF2A04C1E6008D7D95 /* Main.storyboard */ = {
+		2AE7D0F82A04C24A008D7D95 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2AE7D0C02A04C1E6008D7D95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2AE7D0C42A04C1E8008D7D95 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2AE7D0C52A04C1E8008D7D95 /* Base */,
+				2AE7D0F92A04C24A008D7D95 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2AE7D0FA2A04C24A008D7D95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE7D0FB2A04C24A008D7D95 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,6 +574,7 @@
 		};
 		2AE7D0CB2A04C1E8008D7D95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF07202318EB3C9FBDCBC799 /* Pods-E-EYE DOCTOR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +603,7 @@
 		};
 		2AE7D0CC2A04C1E8008D7D95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A025348059D52F8168BD96B /* Pods-E-EYE DOCTOR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
