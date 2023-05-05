@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0E8AAA2A0598010013CDF8 /* EyeTestingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E8AA92A0598010013CDF8 /* EyeTestingVC.swift */; };
+		2A0E8AAC2A059CE30013CDF8 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E8AAB2A059CE30013CDF8 /* TestCollectionViewCell.swift */; };
 		2AE7D0CF2A04C211008D7D95 /* CorrnerRaduisEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0CE2A04C211008D7D95 /* CorrnerRaduisEX.swift */; };
 		2AE7D0E72A04C22E008D7D95 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0D22A04C22D008D7D95 /* MenuTableViewCell.swift */; };
 		2AE7D0E82A04C22E008D7D95 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0D32A04C22D008D7D95 /* MenuVC.swift */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		1A025348059D52F8168BD96B /* Pods-E-EYE DOCTOR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-EYE DOCTOR.release.xcconfig"; path = "Target Support Files/Pods-E-EYE DOCTOR/Pods-E-EYE DOCTOR.release.xcconfig"; sourceTree = "<group>"; };
+		2A0E8AA92A0598010013CDF8 /* EyeTestingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTestingVC.swift; sourceTree = "<group>"; };
+		2A0E8AAB2A059CE30013CDF8 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 		2AE7D0B62A04C1E6008D7D95 /* E-EYE DOCTOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-EYE DOCTOR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE7D0C72A04C1E8008D7D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AE7D0CE2A04C211008D7D95 /* CorrnerRaduisEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrnerRaduisEX.swift; sourceTree = "<group>"; };
@@ -102,6 +106,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2A0E8AA82A0597E60013CDF8 /* EyeTesting */ = {
+			isa = PBXGroup;
+			children = (
+				2A0E8AA92A0598010013CDF8 /* EyeTestingVC.swift */,
+				2A0E8AAB2A059CE30013CDF8 /* TestCollectionViewCell.swift */,
+			);
+			path = EyeTesting;
+			sourceTree = "<group>";
+		};
 		2AE7D0AD2A04C1E6008D7D95 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +156,7 @@
 		2AE7D0D02A04C22D008D7D95 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2A0E8AA82A0597E60013CDF8 /* EyeTesting */,
 				2AE7D1182A0565BB008D7D95 /* Medical Record */,
 				2AE7D1112A052341008D7D95 /* ReadytoTest */,
 				2AE7D10E2A04FE97008D7D95 /* EyeRecord */,
@@ -419,6 +433,7 @@
 				2AE7D0F62A04C22E008D7D95 /* ProfileViewController.swift in Sources */,
 				2AE7D11E2A057380008D7D95 /* Support.swift in Sources */,
 				2AE7D0EE2A04C22E008D7D95 /* LoginModel.swift in Sources */,
+				2A0E8AAA2A0598010013CDF8 /* EyeTestingVC.swift in Sources */,
 				2AE7D10A2A04FDF9008D7D95 /* OptometryViewController.swift in Sources */,
 				2AE7D0ED2A04C22E008D7D95 /* LoginApi.swift in Sources */,
 				2AE7D0F52A04C22E008D7D95 /* MainTabBarViewController.swift in Sources */,
@@ -430,6 +445,7 @@
 				2AE7D1132A0523D5008D7D95 /* ReadyTestP1.swift in Sources */,
 				2AE7D0E82A04C22E008D7D95 /* MenuVC.swift in Sources */,
 				2AE7D0F12A04C22E008D7D95 /* HomeViewController.swift in Sources */,
+				2A0E8AAC2A059CE30013CDF8 /* TestCollectionViewCell.swift in Sources */,
 				2AE7D1022A04C254008D7D95 /* SceneDelegate.swift in Sources */,
 				2AE7D0F42A04C22E008D7D95 /* YourEEyeViewController.swift in Sources */,
 				2AE7D0F22A04C22E008D7D95 /* EyeScanningViewController.swift in Sources */,

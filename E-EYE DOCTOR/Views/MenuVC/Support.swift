@@ -10,13 +10,14 @@ import UIKit
 import Cosmos
 
 class SupportViewController: UIViewController {
-
+    static let ID = String(describing: SupportViewController.self)
     @IBOutlet weak var RateStar: CosmosView!
+    
     @IBOutlet weak var FeedBackTV: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         FeedBackTV.layer.borderWidth = 1
-        FeedBackTV.layer.borderColor = UIColor.lightGray.cgColor
+        FeedBackTV.layer.borderColor = UIColor(red: 83/255, green: 180/255, blue: 182/255, alpha: 1).cgColor
         FeedBackTV.layer.cornerRadius = 5
         RateStar.settings.fillMode = .half
         RateStar.settings.updateOnTouch = true

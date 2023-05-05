@@ -36,8 +36,30 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if indexPath.row == cellTitles.count - 1 {
+        switch indexPath.row {
+        case 0:
+            // Navigate to My Medical Records view controller
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "PDFVC")
+            navigationController?.pushViewController(vc, animated: true)
+        case 1:
+            // Navigate to Support view controller
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "SupportViewController")
+            navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            // Navigate to Privacy and Security view controller
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "PrivacySecurityVC")
+            navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            // Navigate to About view controller
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "AboutVC")
+            navigationController?.pushViewController(vc, animated: true)
+        default:
             showAlert()
+       
         }
     }
     
