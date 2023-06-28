@@ -67,7 +67,9 @@ class MedicalRecordVC: UIViewController {
         print("done")
         let pdfVC = PDFVC()
         pdfVC.pdfData = data
-        navigationController?.pushViewController(pdfVC, animated: true)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "PDFVC") as! PDFVC
+        present(vc, animated: true)
     }
 
     

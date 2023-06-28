@@ -40,7 +40,9 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         case 0:
             // Navigate to My Medical Records view controller
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(withIdentifier: "PDFVC")
+            let vc = storyboard.instantiateViewController(withIdentifier: "MedicalRecordVC")
+          //  navigationController.ishi
+            present(vc, animated: true)
             navigationController?.pushViewController(vc, animated: true)
         case 1:
             // Navigate to Support view controller
