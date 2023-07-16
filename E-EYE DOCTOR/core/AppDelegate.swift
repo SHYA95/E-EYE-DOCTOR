@@ -6,16 +6,32 @@
 //
 
 import UIKit
+import Firebase
+
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+            // Create the window manually
+            window = UIWindow(frame: UIScreen.main.bounds)
+            
+            // If you want to use a storyboard, set its initial view controller as the root view controller
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let initialViewController = storyboard.instantiateInitialViewController()
+            window?.rootViewController = initialViewController
+            
+            FirebaseApp.configure()
+           
+            // Make the window visible
+            window?.makeKeyAndVisible()
+            
+            return true
+        }
 
     // MARK: UISceneSession Lifecycle
 

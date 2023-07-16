@@ -61,15 +61,14 @@ class MedicalRecordVC: UIViewController {
         DiseaseTF.setCustomStyle()
         MoreInfoTF.setCustomStyle()
     }
-
     @IBAction func Submit(_ sender: UIButton) {
         guard let data = createPDF() else { return }
         print("done")
         let pdfVC = PDFVC()
         pdfVC.pdfData = data
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "PDFVC") as! PDFVC
-        present(vc, animated: true)
+        
+        // Present the PDFVC
+        navigationController?.pushViewController(pdfVC, animated: true)
     }
 
     

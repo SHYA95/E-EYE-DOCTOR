@@ -7,21 +7,8 @@
 
 import Foundation
 
-struct LoginModel: Codable {
-    let id: String
-    let userName: String
-    let phone: String
-    let status: Int
-    let balance: Int
-    let token: String
-    
-    enum CodingKeys: String, CodingKey {
-        case id = "_id"
-        case userName
-        case phone = "Phone"
-        case status = "Status"
-        case balance = "Balance"
-        case token = "Token"
-    }
+struct LoginModel {
+    let username: String
+    let email: String
+    let password: String
 }
-

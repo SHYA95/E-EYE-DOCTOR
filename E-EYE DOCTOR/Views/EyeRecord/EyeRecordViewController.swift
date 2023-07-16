@@ -12,10 +12,11 @@ class EyeRecordViewController: UIViewController {
     @IBOutlet weak var uploadEyeImage: UIImageView!
     
     override func viewDidLoad() {
+        let cornerRadius: CGFloat = 10
         super.viewDidLoad()
         
-        // Add a border to the image view
-        uploadEyeImage.layer.borderWidth = 1
+        uploadEyeImage.layer.cornerRadius = cornerRadius
+        uploadEyeImage.layer.borderWidth = 2
         uploadEyeImage.layer.borderColor = UIColor(red: 83/255, green: 180/255, blue: 182/255, alpha: 1).cgColor
     }
 }

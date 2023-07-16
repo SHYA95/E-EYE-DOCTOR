@@ -1,71 +1,85 @@
-//
-//  SignupVC.swift
-//  MyWalletIos
-//
-//  Created by AliSharaf on 07/04/2023.
-//
-
 import UIKit
 import Toast_Swift
+import FirebaseAuth
+import FirebaseFirestore
 
-class SignupVC: UIViewController, SignUPDataLoaded {
+class SignupVC: UIViewController {
     static let ID = String(describing: SignupVC.self)
     
     @IBOutlet weak var userNameTX: UITextField!
-    
-    @IBOutlet weak var phoneTX: UITextField!
-    
+    @IBOutlet weak var emailTX: UITextField!
     @IBOutlet weak var passwordTX: UITextField!
-    let api = SignUPApiHandler()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
-    }
-    func isSignUPDone(message: String) {
-        self.view.makeToast("\(message)")
     }
     
-    func isSignUPFail(message: String) {
-        self.view.makeToast("\(message)")
-    }
-    
-
     @IBAction func SingUpButton(_ sender: Any) {
-        api.delegate = self
-        guard let userName = userNameTX.text , !userName.isEmpty else { return }
-        guard let phone = phoneTX.text , !phone.isEmpty else {
-            phoneTX.layer.borderColor = UIColor.red.cgColor // set border color to red
-            phoneTX.layer.borderWidth = 1.0 // set border width to 1.0
-            phoneTX.layer.cornerRadius = 5.0 // set corner radius to 5.0
+        guard let username = userNameTX.text, !username.isEmpty else {
+            self.view.makeToast("Please enter your username")
             return
         }
-        guard let password = passwordTX.text , !password.isEmpty else { return }
-        let pass = password // assign value to pass constant
-
-        guard isValidPhone(phone) else {
-            phoneTX.layer.borderColor = UIColor.red.cgColor // set border color to red
-            phoneTX.layer.borderWidth = 1.0 // set border width to 1.0
-            phoneTX.layer.cornerRadius = 5.0 // set corner radius to 5.0
-            self.view.makeToast("Invalid phone number")
+        
+        guard let email = emailTX.text, !email.isEmpty else {
+            self.view.makeToast("Please enter your email")
             return
-            
         }
-        phoneTX.layer.borderWidth = 0.0 // reset border width to 0.0
-        api.registerMethod(phone: phone, userName: userName, password: pass)
+        
+        guard let password = passwordTX.text, !password.isEmpty else {
+            self.view.makeToast("Please enter your password")
+            return
+        }
+        
+        signUpUser(with: email, password: password, username: username)
     }
-
-    // function to validate phone number
-    func isValidPhone(_ phone: String) -> Bool {
-        let phoneRegex = "^\\d{10}$" // regex to match 10-digit phone number
-        let phonePredicate = NSPredicate(format: "SELF MATCHES %@", phoneRegex)
-        return phonePredicate.evaluate(with: phone)
-    }
-    
-
     
     @IBAction func LoginButton(_ sender: Any) {
         popScreen()
     }
     
+    // Function to validate email address
+    func isValidEmail(_ email: String) -> Bool {
+        let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+        let emailPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
+        return emailPredicate.evaluate(with: email)
+    }
+    
+    // Function to sign up the user using email and password
+    private func signUpUser(with email: String, password: String, username: String) {
+        Auth.auth().createUser(withEmail: email, password: password) { [weak self] result, error in
+            guard let strongSelf = self else { return }
+            
+            if let error = error {
+                strongSelf.view.makeToast("Sign up failed: \(error.localizedDescription)")
+                return
+            }
+            
+            // User registration successful, save additional data
+            guard let resultUser = result?.user else {
+                strongSelf.view.makeToast("Sign up failed. Please try again.")
+                return
+            }
+            
+            let db = Firestore.firestore()
+            db.collection("users")
+                .document(resultUser.uid)
+                .setData([
+                    "username": username,
+                    "email": email
+                ]) { error in
+                    if let error = error {
+                        strongSelf.view.makeToast("Sign up failed: \(error.localizedDescription)")
+                        return
+                    }
+                   
+                    strongSelf.handleSignUpSuccess()
+                }
+        }
+    }
+    
+    
+    // Handle successful signup
+    private func handleSignUpSuccess() {
+        self.view.makeToast("Sign up successful!")
+    }
 }

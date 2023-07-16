@@ -8,6 +8,9 @@
 import UIKit
 
 class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    
+    
     let cellTitles = ["My Medical Records", "Support", "Privacy,Secuirty", "About", "Log out"]
 
     let cellImages = [ "doc.on.clipboard.fill", "phone.circle", "lock.shield.fill", "info.circle","rectangle.portrait.and.arrow.right"]
@@ -42,7 +45,7 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: "MedicalRecordVC")
           //  navigationController.ishi
-            present(vc, animated: true)
+            //present(vc, animated: true)
             navigationController?.pushViewController(vc, animated: true)
         case 1:
             // Navigate to Support view controller
@@ -84,5 +87,6 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         present(alertController, animated: true, completion: nil)
     }
+    
     
     }

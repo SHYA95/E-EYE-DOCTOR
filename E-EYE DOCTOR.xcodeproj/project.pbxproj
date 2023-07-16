@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0A48022A4FB109008C0042 /* ImageClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A48012A4FB109008C0042 /* ImageClassification.swift */; };
+		2A0A48042A4FB1AE008C0042 /* ClassificationAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A48032A4FB1AE008C0042 /* ClassificationAnswer.swift */; };
 		2A0E8AAA2A0598010013CDF8 /* EyeTestingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E8AA92A0598010013CDF8 /* EyeTestingVC.swift */; };
 		2A0E8AAC2A059CE30013CDF8 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E8AAB2A059CE30013CDF8 /* TestCollectionViewCell.swift */; };
+		2A13D9F82A5457B600E9CCAD /* VisionTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A13D9F72A5457B600E9CCAD /* VisionTestVC.swift */; };
+		2A1A92FD2A53948500F40F96 /* ColorTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A92FC2A53948500F40F96 /* ColorTestVC.swift */; };
+		2A7BCE222A503FFE00103CC2 /* EyeImageClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BCE1F2A503A0100103CC2 /* EyeImageClassification.mlmodel */; };
+		2A7BCE2E2A504E2F00103CC2 /* EyeClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BCE2D2A504E2F00103CC2 /* EyeClassifier.mlmodel */; };
+		2A7BCE322A507BCD00103CC2 /* EyeTestingHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BCE312A507BCD00103CC2 /* EyeTestingHomeVC.swift */; };
+		2AA612552A632ED800C51DF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AA612542A632ED800C51DF6 /* GoogleService-Info.plist */; };
+		2AA612572A63573500C51DF6 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA612562A63573500C51DF6 /* OTPVC.swift */; };
+		2ACA0BAA2A54D3D2006F83D1 /* TestingEyeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA0BA92A54D3D2006F83D1 /* TestingEyeVC.swift */; };
 		2AE7D0CF2A04C211008D7D95 /* CorrnerRaduisEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0CE2A04C211008D7D95 /* CorrnerRaduisEX.swift */; };
 		2AE7D0E72A04C22E008D7D95 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0D22A04C22D008D7D95 /* MenuTableViewCell.swift */; };
 		2AE7D0E82A04C22E008D7D95 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0D32A04C22D008D7D95 /* MenuVC.swift */; };
@@ -46,8 +56,20 @@
 
 /* Begin PBXFileReference section */
 		1A025348059D52F8168BD96B /* Pods-E-EYE DOCTOR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-EYE DOCTOR.release.xcconfig"; path = "Target Support Files/Pods-E-EYE DOCTOR/Pods-E-EYE DOCTOR.release.xcconfig"; sourceTree = "<group>"; };
+		2A0A48012A4FB109008C0042 /* ImageClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassification.swift; sourceTree = "<group>"; };
+		2A0A48032A4FB1AE008C0042 /* ClassificationAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationAnswer.swift; sourceTree = "<group>"; };
 		2A0E8AA92A0598010013CDF8 /* EyeTestingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTestingVC.swift; sourceTree = "<group>"; };
 		2A0E8AAB2A059CE30013CDF8 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
+		2A13D9F72A5457B600E9CCAD /* VisionTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionTestVC.swift; sourceTree = "<group>"; };
+		2A1A92FC2A53948500F40F96 /* ColorTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTestVC.swift; sourceTree = "<group>"; };
+		2A7BCE1F2A503A0100103CC2 /* EyeImageClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = EyeImageClassification.mlmodel; path = EyeImageClassification.mlmodel/Data/com.apple.CoreML/EyeImageClassification.mlmodel; sourceTree = "<group>"; };
+		2A7BCE2B2A5047ED00103CC2 /* EyeClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EyeClassifier.mlmodel; sourceTree = "<group>"; };
+		2A7BCE2D2A504E2F00103CC2 /* EyeClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = EyeClassifier.mlmodel; path = "E-EYE DOCTOR/CoreMLModel/EyeClassifier.mlmodel"; sourceTree = "<group>"; };
+		2A7BCE312A507BCD00103CC2 /* EyeTestingHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTestingHomeVC.swift; sourceTree = "<group>"; };
+		2AA612542A632ED800C51DF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2AA612562A63573500C51DF6 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
+		2AA6125A2A64349300C51DF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ACA0BA92A54D3D2006F83D1 /* TestingEyeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingEyeVC.swift; sourceTree = "<group>"; };
 		2AE7D0B62A04C1E6008D7D95 /* E-EYE DOCTOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-EYE DOCTOR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE7D0C72A04C1E8008D7D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AE7D0CE2A04C211008D7D95 /* CorrnerRaduisEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrnerRaduisEX.swift; sourceTree = "<group>"; };
@@ -106,18 +128,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2A0A47FE2A4FAC3B008C0042 /* CoreMLModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A7BCE2B2A5047ED00103CC2 /* EyeClassifier.mlmodel */,
+				2A7BCE1F2A503A0100103CC2 /* EyeImageClassification.mlmodel */,
+				2A0A48012A4FB109008C0042 /* ImageClassification.swift */,
+				2A0A48032A4FB1AE008C0042 /* ClassificationAnswer.swift */,
+			);
+			path = CoreMLModel;
+			sourceTree = "<group>";
+		};
 		2A0E8AA82A0597E60013CDF8 /* EyeTesting */ = {
 			isa = PBXGroup;
 			children = (
+				2A1A92FB2A53942E00F40F96 /* visionTest */,
+				2A1A92FA2A53940C00F40F96 /* ColorTest */,
 				2A0E8AA92A0598010013CDF8 /* EyeTestingVC.swift */,
 				2A0E8AAB2A059CE30013CDF8 /* TestCollectionViewCell.swift */,
+				2A7BCE312A507BCD00103CC2 /* EyeTestingHomeVC.swift */,
+				2ACA0BA92A54D3D2006F83D1 /* TestingEyeVC.swift */,
 			);
 			path = EyeTesting;
+			sourceTree = "<group>";
+		};
+		2A1A92FA2A53940C00F40F96 /* ColorTest */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A92FC2A53948500F40F96 /* ColorTestVC.swift */,
+			);
+			path = ColorTest;
+			sourceTree = "<group>";
+		};
+		2A1A92FB2A53942E00F40F96 /* visionTest */ = {
+			isa = PBXGroup;
+			children = (
+				2A13D9F72A5457B600E9CCAD /* VisionTestVC.swift */,
+			);
+			path = visionTest;
 			sourceTree = "<group>";
 		};
 		2AE7D0AD2A04C1E6008D7D95 = {
 			isa = PBXGroup;
 			children = (
+				2A7BCE2D2A504E2F00103CC2 /* EyeClassifier.mlmodel */,
 				2AE7D0B82A04C1E6008D7D95 /* E-EYE DOCTOR */,
 				2AE7D0B72A04C1E6008D7D95 /* Products */,
 				D145C60D58E6BC64774754B3 /* Pods */,
@@ -136,11 +190,13 @@
 		2AE7D0B82A04C1E6008D7D95 /* E-EYE DOCTOR */ = {
 			isa = PBXGroup;
 			children = (
+				2A0A47FE2A4FAC3B008C0042 /* CoreMLModel */,
 				2AE7D0FE2A04C254008D7D95 /* core */,
 				2AE7D0F72A04C24A008D7D95 /* Recourses */,
 				2AE7D0D02A04C22D008D7D95 /* Views */,
 				2AE7D0CD2A04C211008D7D95 /* Extentions */,
 				2AE7D0C72A04C1E8008D7D95 /* Info.plist */,
+				2AA612542A632ED800C51DF6 /* GoogleService-Info.plist */,
 			);
 			path = "E-EYE DOCTOR";
 			sourceTree = "<group>";
@@ -193,6 +249,7 @@
 			children = (
 				2AE7D0D72A04C22D008D7D95 /* SignupVC */,
 				2AE7D0DB2A04C22D008D7D95 /* LoginVC */,
+				2AA612562A63573500C51DF6 /* OTPVC.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -366,6 +423,7 @@
 				2AE7D0FC2A04C24A008D7D95 /* LaunchScreen.storyboard in Resources */,
 				2AE7D1042A04C943008D7D95 /* Assets.xcassets in Resources */,
 				2AE7D0FD2A04C24A008D7D95 /* Main.storyboard in Resources */,
+				2AA612552A632ED800C51DF6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,15 +476,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7BCE322A507BCD00103CC2 /* EyeTestingHomeVC.swift in Sources */,
+				2A7BCE2E2A504E2F00103CC2 /* EyeClassifier.mlmodel in Sources */,
 				2AE7D11A2A0565FE008D7D95 /* MedicalRecordVC.swift in Sources */,
 				2AE7D1172A0523F8008D7D95 /* ReadyTestP3.swift in Sources */,
 				2AE7D0EB2A04C22E008D7D95 /* SignupApi.swift in Sources */,
 				2AE7D0F02A04C22E008D7D95 /* SearchViewController.swift in Sources */,
+				2A7BCE222A503FFE00103CC2 /* EyeImageClassification.mlmodel in Sources */,
 				2AE7D0F32A04C22E008D7D95 /* DownloadsViewController.swift in Sources */,
 				2AE7D10D2A04FE6B008D7D95 /* EyeCareViewController.swift in Sources */,
 				2AE7D0EC2A04C22E008D7D95 /* SignupVC.swift in Sources */,
+				2AA612572A63573500C51DF6 /* OTPVC.swift in Sources */,
 				2AE7D1102A04FEA8008D7D95 /* EyeRecordViewController.swift in Sources */,
 				2AE7D0E72A04C22E008D7D95 /* MenuTableViewCell.swift in Sources */,
+				2A13D9F82A5457B600E9CCAD /* VisionTestVC.swift in Sources */,
 				2AE7D0EA2A04C22E008D7D95 /* SignupModel.swift in Sources */,
 				2AE7D0EF2A04C22E008D7D95 /* LoginVC.swift in Sources */,
 				2AE7D1152A0523E3008D7D95 /* ReadyTestP2.swift in Sources */,
@@ -436,10 +499,13 @@
 				2A0E8AAA2A0598010013CDF8 /* EyeTestingVC.swift in Sources */,
 				2AE7D10A2A04FDF9008D7D95 /* OptometryViewController.swift in Sources */,
 				2AE7D0ED2A04C22E008D7D95 /* LoginApi.swift in Sources */,
+				2A1A92FD2A53948500F40F96 /* ColorTestVC.swift in Sources */,
 				2AE7D0F52A04C22E008D7D95 /* MainTabBarViewController.swift in Sources */,
 				2AE7D1062A04E7FB008D7D95 /* Maintabbarvc.swift in Sources */,
 				2AE7D0CF2A04C211008D7D95 /* CorrnerRaduisEX.swift in Sources */,
 				2AE7D1012A04C254008D7D95 /* AppDelegate.swift in Sources */,
+				2A0A48042A4FB1AE008C0042 /* ClassificationAnswer.swift in Sources */,
+				2ACA0BAA2A54D3D2006F83D1 /* TestingEyeVC.swift in Sources */,
 				2AE7D0E92A04C22E008D7D95 /* ViewController.swift in Sources */,
 				2AE7D11C2A056B49008D7D95 /* PDFVC.swift in Sources */,
 				2AE7D1132A0523D5008D7D95 /* ReadyTestP1.swift in Sources */,
@@ -447,6 +513,7 @@
 				2AE7D0F12A04C22E008D7D95 /* HomeViewController.swift in Sources */,
 				2A0E8AAC2A059CE30013CDF8 /* TestCollectionViewCell.swift in Sources */,
 				2AE7D1022A04C254008D7D95 /* SceneDelegate.swift in Sources */,
+				2A0A48022A4FB109008C0042 /* ImageClassification.swift in Sources */,
 				2AE7D0F42A04C22E008D7D95 /* YourEEyeViewController.swift in Sources */,
 				2AE7D0F22A04C22E008D7D95 /* EyeScanningViewController.swift in Sources */,
 			);
@@ -467,6 +534,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2AE7D0FB2A04C24A008D7D95 /* Base */,
+				2AA6125A2A64349300C51DF6 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -604,6 +672,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,6 +702,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

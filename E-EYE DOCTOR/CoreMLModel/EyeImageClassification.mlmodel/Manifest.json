@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "1BF7883D-7AB6-4CDF-8801-D9915A6621F9": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "EyeImageClassification.mlmodel",
+            "path": "com.apple.CoreML/EyeImageClassification.mlmodel"
+        },
+        "4DBA0D42-8EC9-457E-81B0-56A465D793FD": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "FAB9906A-2993-416B-87D4-6CADAAFBE1F9": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        }
+    },
+    "rootModelIdentifier": "1BF7883D-7AB6-4CDF-8801-D9915A6621F9"
+}
