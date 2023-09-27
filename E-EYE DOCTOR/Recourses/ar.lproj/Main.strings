@@ -1,0 +1,354 @@
+
+/* Class = "UILabel"; text = "Medical Records"; ObjectID = "0OR-hm-R9J"; */
+"0OR-hm-R9J.text" = "التقارير الطبيه";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "18H-q2-6du"; */
+"18H-q2-6du.configuration.title" = "القادم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "18H-q2-6du"; */
+"18H-q2-6du.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Remind me to be away from my phone every 45 Mintues"; ObjectID = "1J8-oy-NFh"; */
+"1J8-oy-NFh.text" = "تذكيري بأن أبتعد عن هاتفي كل 45 دقيقة";
+
+/* Class = "UILabel"; text = "Data Collection:"; ObjectID = "1zl-bg-WNt"; */
+"1zl-bg-WNt.text" = "جمع البيانات:";
+
+/* Class = "UILabel"; text = "Record for:"; ObjectID = "1zs-dR-HmZ"; */
+"1zs-dR-HmZ.text" = "سجل لـ:";
+
+/* Class = "UIButton"; normalTitle = "Add reminder"; ObjectID = "2Wy-cu-TJj"; */
+"2Wy-cu-TJj.normalTitle" = "إضافة تذكير";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "3s6-us-cTQ"; */
+"3s6-us-cTQ.title" = "بحث";
+
+/* Class = "UILabel"; text = "Medical Record"; ObjectID = "4HO-si-Ipn"; */
+"4HO-si-Ipn.text" = "التقارير الطبيه";
+
+/* Class = "UILabel"; text = "Keep head straight, and the device in front of your eyes."; ObjectID = "53Z-4Y-loe"; */
+"53Z-4Y-loe.text" = "حافظ على رأسك مستقيماً ، والجهاز أمام عينيك.";
+
+/* Class = "UIViewController"; title = "EyeCareViewController"; ObjectID = "5R1-FD-gjC"; */
+"5R1-FD-gjC.title" = "EyeCareViewController";
+
+/* Class = "UIButton"; normalTitle = "Add reminder"; ObjectID = "5Y7-Sk-JWv"; */
+"5Y7-Sk-JWv.normalTitle" = "إضافة تذكير";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "5xd-RK-9hJ"; */
+"5xd-RK-9hJ.configuration.title" = "زر";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5xd-RK-9hJ"; */
+"5xd-RK-9hJ.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "We may collect certain information from you, such as your name, email address, and device information, to provide you with a personalized experience. We may also collect usage data to improve our app's functionality. Please note that we do not collect any sensitive personal information without your explicit consent."; ObjectID = "5zX-jR-1Us"; */
+"5zX-jR-1Us.text" = "قد نقوم بجمع معلومات معينة منك ، مثل اسمك وعنوان بريدك الإلكتروني ومعلومات الجهاز ، لتزويدك بتجربة مخصصة لك. قد نقوم أيضًا بجمع بيانات الاستخدام لتحسين وظائف تطبيقنا. يرجى ملاحظة أننا لا نجمع أي معلومات شخصية حساسة دون موافقتك الصريحة.";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "6do-4x-pUE"; */
+"6do-4x-pUE.placeholder" = "اسم المستخدم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6gk-QB-psa"; */
+"6gk-QB-psa.normalTitle" = "زر";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "79s-nc-hiG"; */
+"79s-nc-hiG.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Don’t have an account?"; ObjectID = "85P-Gj-yC0"; */
+"85P-Gj-yC0.text" = "ليس لديك حساب؟";
+
+/* Class = "UILabel"; text = "Record created on:"; ObjectID = "85q-CL-ayY"; */
+"85q-CL-ayY.text" = "تم إنشاء السجل في:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8IK-xf-plm"; */
+"8IK-xf-plm.normalTitle" = "زر";
+
+/* Class = "UITabBarItem"; title = "E-Eye"; ObjectID = "8wC-Km-lUO"; */
+"8wC-Km-lUO.title" = "العين الإلكترونية";
+
+/* Class = "UILabel"; text = "If it'd blew 12 C,Remind me to take my eye drop"; ObjectID = "AMh-L0-UVE"; */
+"AMh-L0-UVE.text" = "إذا كان ينفجر 12 درجة مئوية ، ذكرني بأخذ قطرة عيني";
+
+/* Class = "UILabel"; text = "You have the right to access, modify, or delete your personal information held by us. If you have any questions or requests regarding your data, please contact our support team at [support email]. We will respond to your inquiries in a timely manner."; ObjectID = "AWt-sS-soB"; */
+"AWt-sS-soB.text" = "لديك الحق في الوصول إلى معلوماتك الشخصية التي نحتفظ بها لدينا أو تعديلها أو حذفها. إذا كانت لديك أي أسئلة أو طلبات بخصوص بياناتك ، فيرجى الاتصال بفريق الدعم على [البريد الإلكتروني للدعم]. سنرد على استفساراتك في الوقت المناسب.";
+
+/* Class = "UIButton"; configuration.title = "Eye Record"; ObjectID = "Aqh-lF-oT5"; */
+"Aqh-lF-oT5.configuration.title" = "سجل العين";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Aqh-lF-oT5"; */
+"Aqh-lF-oT5.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Rate The App"; ObjectID = "D9h-i6-MKj"; */
+"D9h-i6-MKj.text" = "قيم التطبيق";
+
+/* Class = "UIButton"; normalTitle = " sign up"; ObjectID = "F7y-7r-YjK"; */
+"F7y-7r-YjK.normalTitle" = "  اشتراك";
+
+/* Class = "UILabel"; text = "Find personalized eye care options that meet your unique needs. Start your search today!"; ObjectID = "H3o-ml-rKE"; */
+"H3o-ml-rKE.text" = "ابحث عن خيارات العناية بالعيون المخصصة التي تلبي احتياجاتك الفريدة. ابدأ البحث اليوم!";
+
+/* Class = "UIViewController"; title = "SearchViewController"; ObjectID = "H7K-ls-2L7"; */
+"H7K-ls-2L7.title" = "بحث";
+
+/* Class = "UILabel"; text = "Have an account?"; ObjectID = "Hdl-lD-Q37"; */
+"Hdl-lD-Q37.text" = "هل لديك حساب؟";
+
+/* Class = "UIButton"; configuration.title = "Color Vision"; ObjectID = "HxQ-tN-tI5"; */
+"HxQ-tN-tI5.configuration.title" = "رؤية الألوان";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HxQ-tN-tI5"; */
+"HxQ-tN-tI5.normalTitle" = "زر";
+
+/* Class = "UIButton"; normalTitle = "Add reminder"; ObjectID = "Iqe-1l-2U0"; */
+"Iqe-1l-2U0.normalTitle" = "إضافة تذكير";
+
+/* Class = "UIButton"; configuration.title = "9"; ObjectID = "Iz3-1T-0p6"; */
+"Iz3-1T-0p6.configuration.title" = "9";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Iz3-1T-0p6"; */
+"Iz3-1T-0p6.normalTitle" = "زر";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JIe-e4-Afq"; */
+"JIe-e4-Afq.normalTitle" = "زر";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "K81-8B-01v"; */
+"K81-8B-01v.configuration.title" = "القادم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "K81-8B-01v"; */
+"K81-8B-01v.normalTitle" = "زر";
+
+/* Class = "UIButton"; configuration.title = "74"; ObjectID = "K8y-Tz-0D5"; */
+"K8y-Tz-0D5.configuration.title" = "74";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "K8y-Tz-0D5"; */
+"K8y-Tz-0D5.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "The data we collect is used to enhance your app experience, provide personalized content, and analyze user behavior to improve our services. We do not sell or share your data with third parties for marketing purposes.\n\nData Storage and Security:\nYour data is stored securely using industry-standard encryption methods. We take appropriate technical and organizational measures to protect your information from unauthorized access or disclosure. Our servers are located in secure data centers with restricted access."; ObjectID = "KLT-zn-r07"; */
+"KLT-zn-r07.text" = "تُستخدم البيانات التي نجمعها لتحسين تجربة تطبيقك ، وتوفير محتوى مخصص ، وتحليل سلوك المستخدم لتحسين خدماتنا. نحن لا نبيع أو نشارك بياناتك مع جهات خارجية لأغراض تسويقية. \ n \ n تخزين البيانات وأمانها: \ n يتم تخزين بياناتك بأمان باستخدام طرق التشفير المتوافقة مع معايير الصناعة. نتخذ التدابير الفنية والتنظيمية المناسبة لحماية معلوماتك من الوصول أو الكشف غير المصرح به. توجد خوادمنا في مراكز بيانات آمنة مع وصول مقيد.";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "LXQ-Pv-hMW"; */
+"LXQ-Pv-hMW.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UITextField"; placeholder = "E-Mail"; ObjectID = "NCY-1a-CCe"; */
+"NCY-1a-CCe.placeholder" = "البريد الالكتروني";
+
+/* Class = "UILabel"; text = "About App"; ObjectID = "OyI-oe-ZIa"; */
+"OyI-oe-ZIa.text" = "عننا";
+
+/* Class = "UIButton"; configuration.title = "Sight Measure"; ObjectID = "P2g-Jt-9PS"; */
+"P2g-Jt-9PS.configuration.title" = "قياس البصر";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "P2g-Jt-9PS"; */
+"P2g-Jt-9PS.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Enter The Code That was sent"; ObjectID = "RDy-Z8-zj3"; */
+"RDy-Z8-zj3.text" = "أدخل الرمز الذي تم إرساله";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "RPD-AQ-lwg"; */
+"RPD-AQ-lwg.placeholder" = "الرقم السري";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ryt-kU-pyA"; */
+"Ryt-kU-pyA.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "We value your opinion and want to make sure our app meets your needs. If you have any feedback or ideas, please don't hesitate to reach out to us."; ObjectID = "Tae-yw-Lkb"; */
+"Tae-yw-Lkb.text" = "نحن نقدر رأيك ونريد التأكد من أن تطبيقنا يلبي احتياجاتك. إذا كان لديك أي ملاحظات أو أفكار ، فلا تتردد في التواصل معنا.";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "TkV-lz-BD4"; */
+"TkV-lz-BD4.title" = "الصفحه الرئيسيه";
+
+/* Class = "UIButton"; normalTitle = "Forget Password"; ObjectID = "VDJ-1k-JlI"; */
+"VDJ-1k-JlI.normalTitle" = "نسيت كلمة المرور";
+
+/* Class = "UILabel"; text = "Updates to Privacy Policy:"; ObjectID = "VDy-zn-BJz"; */
+"VDy-zn-BJz.text" = "تحديثات سياسة الخصوصية:";
+
+/* Class = "UILabel"; text = "chronic diseases"; ObjectID = "VZd-fn-pni"; */
+"VZd-fn-pni.text" = "الأمراض المزمنة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Vjy-Ob-sgY"; */
+"Vjy-Ob-sgY.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Close your right eye!"; ObjectID = "Wlk-5y-ABg"; */
+"Wlk-5y-ABg.text" = "أغلق عينك اليمنى!";
+
+/* Class = "UILabel"; text = "Age"; ObjectID = "X1n-At-ohZ"; */
+"X1n-At-ohZ.text" = "العمر";
+
+/* Class = "UILabel"; text = "We do not share your personal information with third parties, except when required by law or when necessary to provide our services. In some cases, we may share anonymized or aggregated data for statistical or research purposes."; ObjectID = "XxN-VQ-BMM"; */
+"XxN-VQ-BMM.text" = "نحن لا نشارك معلوماتك الشخصية مع أطراف ثالثة ، إلا عندما يقتضي القانون ذلك أو عند الضرورة لتقديم خدماتنا. في بعض الحالات ، قد نشارك بيانات مجهولة المصدر أو مجمعة لأغراض إحصائية أو بحثية.";
+
+/* Class = "UIButton"; configuration.title = "Help Center"; ObjectID = "Y85-8v-SC9"; */
+"Y85-8v-SC9.configuration.title" = "مركز المساعده";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y85-8v-SC9"; */
+"Y85-8v-SC9.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Our app aims to empower users by providing valuable insights into their eye health, assisting with self-assessment, and encouraging timely visits to healthcare professionals when necessary."; ObjectID = "YfQ-Dg-Yxx"; */
+"YfQ-Dg-Yxx.text" = "يهدف تطبيقنا إلى تمكين المستخدمين من خلال توفير رؤى قيمة حول صحة عيونهم ، والمساعدة في التقييم الذاتي ، وتشجيع الزيارات في الوقت المناسب لأخصائيي الرعاية الصحية عند الضرورة.";
+
+/* Class = "UIButton"; configuration.title = "Submit"; ObjectID = "a9d-SY-xpW"; */
+"a9d-SY-xpW.configuration.title" = "يُقدِّم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "a9d-SY-xpW"; */
+"a9d-SY-xpW.normalTitle" = "زر";
+
+/* Class = "UIButton"; configuration.title = "Scan your Eye"; ObjectID = "abH-a7-j9V"; */
+"abH-a7-j9V.configuration.title" = "تفحص عينك";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "abH-a7-j9V"; */
+"abH-a7-j9V.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "By using E-EYE DOCTOR, you consent to the collection, use, and storage of your data as outlined in this Privacy and Security policy.\n\nIf you have any further questions or require more information, please don't hesitate to reach out to us.\n\nThank you for trusting E-EYE DOCTOR,with your privacy and security.\n\nE-EYE DOCTOR, Team"; ObjectID = "axK-51-Gdj"; */
+"axK-51-Gdj.text" = "باستخدام E-EYE DOCTOR ، فإنك توافق على جمع بياناتك واستخدامها وتخزينها كما هو موضح في سياسة الخصوصية والأمان هذه. \ n \ n إذا كانت لديك أي أسئلة أخرى أو تحتاج إلى مزيد من المعلومات ، فلا تتردد في الاتصال الخروج إلينا. \ n \ n شكرًا لك على ثقتك بـ E-EYE DOCTOR ، بخصوص خصوصيتك وأمانك. \ n \ nE-EYE DOCTOR ، فريق";
+
+/* Class = "UILabel"; text = "My Medical Records"; ObjectID = "bWd-pj-oVW"; */
+"bWd-pj-oVW.text" = "سجلاتي الطبية";
+
+/* Class = "UILabel"; text = "What did you see?"; ObjectID = "bkn-Fb-J30"; */
+"bkn-Fb-J30.text" = "ماذا رأيت؟";
+
+/* Class = "UIButton"; configuration.title = "Sign up"; ObjectID = "cxm-dL-mPS"; */
+"cxm-dL-mPS.configuration.title" = "اشتراك";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cxm-dL-mPS"; */
+"cxm-dL-mPS.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Use a tape measure to distance yourself 6 feet from the screen."; ObjectID = "cz2-cl-kb4"; */
+"cz2-cl-kb4.text" = "استخدم شريط قياس لإبعاد نفسك عن الشاشة بمسافة 6 أقدام.";
+
+/* Class = "UIButton"; configuration.title = "Eye Testing"; ObjectID = "dTV-mT-0aW"; */
+"dTV-mT-0aW.configuration.title" = "فحص العين";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dTV-mT-0aW"; */
+"dTV-mT-0aW.normalTitle" = "زر";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eEi-vC-k8W"; */
+"eEi-vC-k8W.normalTitle" = "زر";
+
+/* Class = "UIButton"; configuration.title = "Send"; ObjectID = "eEz-MZ-K1F"; */
+"eEz-MZ-K1F.configuration.title" = "يرسل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eEz-MZ-K1F"; */
+"eEz-MZ-K1F.normalTitle" = "زر";
+
+/* Class = "UIButton"; configuration.title = "Your E-Eye"; ObjectID = "enU-yG-Vn5"; */
+"enU-yG-Vn5.configuration.title" = "عينك الإلكترونية";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "enU-yG-Vn5"; */
+"enU-yG-Vn5.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "If it's above 37 C, Remind me to take my sunglasses."; ObjectID = "f6w-Mc-ia0"; */
+"f6w-Mc-ia0.text" = "إذا كانت درجة الحرارة أعلى من 37 درجة مئوية ، ذكرني بأخذ نظارتي الشمسية.";
+
+/* Class = "UILabel"; text = "User Rights:"; ObjectID = "hJw-qN-eZP"; */
+"hJw-qN-eZP.text" = "حقوق المستخدم:";
+
+/* Class = "UILabel"; text = "Data Sharing:"; ObjectID = "hge-Ek-Rik"; */
+"hge-Ek-Rik.text" = "تبادل البيانات:";
+
+/* Class = "UITabBarItem"; title = "Eye Scanning"; ObjectID = "iC3-63-eWv"; */
+"iC3-63-eWv.title" = "مسح العين";
+
+/* Class = "UILabel"; text = "At E-EYE DOCTOR , we value your privacy and are committed to ensuring the security of your personal information. This Privacy and Security page outlines how we collect, use, and protect your data."; ObjectID = "iOT-uJ-apy"; */
+"iOT-uJ-apy.text" = "في E-EYE DOCTOR ، نقدر خصوصيتك ونلتزم بضمان أمان معلوماتك الشخصية. توضح صفحة الخصوصية والأمان هذه كيفية جمع بياناتك واستخدامها وحمايتها.";
+
+/* Class = "UILabel"; text = "We may update our Privacy Policy from time to time. Any changes will be communicated to you via email or through app notifications. By continuing to use our app, you acknowledge and agree to the updated Privacy Policy."; ObjectID = "jws-li-t75"; */
+"jws-li-t75.text" = "قد نقوم بتحديث سياسة الخصوصية الخاصة بنا من وقت لآخر. سيتم إبلاغك بأي تغييرات عبر البريد الإلكتروني أو من خلال إشعارات التطبيق. من خلال الاستمرار في استخدام تطبيقنا ، فإنك تقر وتوافق على سياسة الخصوصية المحدثة.";
+
+/* Class = "UILabel"; text = "Please select the test you want to take !"; ObjectID = "kbk-NA-sDD"; */
+"kbk-NA-sDD.text" = "الرجاء تحديد الاختبار الذي تريد إجراؤه!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lAc-aI-Q0e"; */
+"lAc-aI-Q0e.normalTitle" = "زر";
+
+/* Class = "UIButton"; configuration.title = "Submit"; ObjectID = "lEc-K2-Ud5"; */
+"lEc-K2-Ud5.configuration.title" = "يُقدِّم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lEc-K2-Ud5"; */
+"lEc-K2-Ud5.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Key Features:"; ObjectID = "lew-LK-lRE"; */
+"lew-LK-lRE.text" = "دلائل الميزات:";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "mML-e3-QPj"; */
+"mML-e3-QPj.configuration.title" = "القادم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mML-e3-QPj"; */
+"mML-e3-QPj.normalTitle" = "زر";
+
+/* Class = "UIButton"; configuration.title = "Eye Care"; ObjectID = "nIR-2N-Pzj"; */
+"nIR-2N-Pzj.configuration.title" = "العناية بالعيون";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nIR-2N-Pzj"; */
+"nIR-2N-Pzj.normalTitle" = "زر";
+
+/* Class = "UIButton"; configuration.title = "2"; ObjectID = "nkn-Dw-qJk"; */
+"nkn-Dw-qJk.configuration.title" = "2";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nkn-Dw-qJk"; */
+"nkn-Dw-qJk.normalTitle" = "زر";
+
+/* Class = "UITextField"; placeholder = "E-Mail"; ObjectID = "oPv-14-b5h"; */
+"oPv-14-b5h.placeholder" = "البريد الالكتروني";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "oSm-CL-ka2"; */
+"oSm-CL-ka2.configuration.title" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oSm-CL-ka2"; */
+"oSm-CL-ka2.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Blood Type"; ObjectID = "pRV-FB-DrT"; */
+"pRV-FB-DrT.text" = "فصيلة الدم";
+
+/* Class = "UILabel"; text = "App Description:\n\nWelcome to our eye care app, a powerful tool that utilizes deep learning and image processing techniques to detect and provide information about various eye diseases. By analyzing eye images, we offer an initial diagnosis for conditions such as cataract, bulging eyes, dry eyes, eye blindness, and glaucoma. Our app also includes tests for color blindness, eyesight measurement, and features for text recognition and object detection, assisting individuals with poor eyesight.\n\nTargeted Audience:\n\nOur app is designed for civilians who suspect they may have an eye problem, whether it's related to vision, eye discomfort, or even iris discoloration. It caters to those seeking a preliminary assessment to determine if they should consult a doctor.\n"; ObjectID = "pv5-Tq-Gcm"; */
+"pv5-Tq-Gcm.text" = "وصف التطبيق: \ n \ n مرحبًا بك في تطبيقنا للعناية بالعيون ، وهو أداة قوية تستخدم تقنيات التعلم العميق ومعالجة الصور لاكتشاف وتقديم معلومات حول أمراض العيون المختلفة. من خلال تحليل صور العين ، نقدم تشخيصًا أوليًا لحالات مثل إعتام عدسة العين ، وانتفاخ العينين ، وجفاف العين ، وعمى العين ، والزرق. يتضمن تطبيقنا أيضًا اختبارات لعمى الألوان ، وقياس البصر ، وميزات للتعرف على النص واكتشاف الأشياء ، ومساعدة الأفراد الذين يعانون من ضعف البصر. \ n \ n الجمهور المستهدف: \ n \ n تم تصميم تطبيقنا للمدنيين الذين يشتبهون في أنهم قد يعانون من مشكلة في العين ، سواء كان ذلك متعلقًا بالرؤية أو عدم الراحة في العين أو حتى تلون قزحية العين. إنه يلبي احتياجات أولئك الذين يسعون لإجراء تقييم أولي لتحديد ما إذا كان ينبغي عليهم استشارة الطبيب. \ n";
+
+/* Class = "UIButton"; configuration.title = "Ready"; ObjectID = "re1-56-air"; */
+"re1-56-air.configuration.title" = "مستعد";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "re1-56-air"; */
+"re1-56-air.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "What did you see?"; ObjectID = "rpU-ci-nd8"; */
+"rpU-ci-nd8.text" = "ماذا رأيت؟";
+
+/* Class = "UILabel"; text = "Support"; ObjectID = "sWb-tE-Iz3"; */
+"sWb-tE-Iz3.text" = "دعم";
+
+/* Class = "UIViewController"; title = "OTPVC"; ObjectID = "tWy-ro-XcJ"; */
+"tWy-ro-XcJ.title" = "OTPVC";
+
+/* Class = "UILabel"; text = "1-Disease Detection:\nUtilizes deep learning and image processing to detect eye diseases like cataract, bulging eyes, dry eyes, eye blindness, and glaucoma.\nEye Medical Record:\nKeeps track of the user's past eye problems, allowing them to monitor improvements over time or identify persistent issues. \n                                         \n2-Eye Exercise:\nProvides a variety of eye relief exercises to improve eye health and reduce strain.\n\n3-Your E-eye:\nOffers a color blindness test and eyesight exercise to assess and maintain visual acuity.\n\n4-Sight Measure:\nIncludes a simple test to measure eyesight, helping users identify any variations in visual acuity between their eyes.\n\n5-Eye Health Tracker:\nSends reminders to users about the potential harmful effects of prolonged screen time, encouraging them to take regular breaks of at least 3 minutes every 40 minutes. It also provides reminders for scheduled eye medications.\n\nFeatures Description:\n\nOur app combines advanced technologies to provide a comprehensive eye care experience. Here's an overview of each feature:\n\n* Disease Detection:\nOur app leverages deep learning algorithms and image processing techniques to identify common eye diseases, including cataract, bulging eyes, dry eyes, eye blindness, and glaucoma. By analyzing eye images, we offer users an initial diagnosis, empowering them with valuable information to seek appropriate medical attention.\n\n* Eye Medical Record:\nUsers can input and track their past eye problems, allowing them to monitor their progress and determine if their condition has improved over time or requires further attention.\n\n* Eye Exercise:\nOur app offers a range of eye relief exercises that aim to reduce eye strain and improve overall eye health. These exercises can help alleviate symptoms associated with prolonged screen time and other factors that contribute to eye discomfort.\n\n* Your E-eye:\nThis feature includes a color blindness test to assess users' color vision capabilities. Additionally, it provides eyesight exercises to enhance visual acuity and maintain healthy eyes.\n\n* Sight Measure:\nBy conducting a simple test, our app measures users' eyesight and helps identify any discrepancies in vision between their eyes. This feature assists in recognizing potential eye weaknesses or determining if both eyes are in good health.\n\n* Eye Health Tracker:\nThe app sends regular reminders to users, notifying them about the negative effects of prolonged electronic screen exposure on their eyesight. It recommends taking short breaks of at least 3 minutes after every 40 minutes of continuous screen use. Furthermore, it provides reminders for prescribed eye medications, ensuring users stay on top of their treatment regimen."; ObjectID = "ti1-Ry-SKQ"; */
+"ti1-Ry-SKQ.text" = "1-الكشف عن المرض: \ n يستخدم التعلم العميق ومعالجة الصور للكشف عن أمراض العيون مثل إعتام عدسة العين وانتفاخ العيون وجفاف العين وعمى العين والزرق. \ n سجل العين الطبي: \ n يتتبع مشاكل العين السابقة للمستخدم ، مما يسمح له بمراقبتها تحسينات بمرور الوقت أو تحديد المشكلات المستمرة. \ n \ n2- تمرين للعين: \ n يوفر مجموعة متنوعة من تمارين تخفيف حدة العين لتحسين صحة العين وتقليل الإجهاد. \ n \ n3- عينك الإلكترونية: \ n يقدم اختبارًا لعمى الألوان وتمرينًا للبصر لتقييم حدة البصر والحفاظ عليها. \ n \ n4-قياس البصر: \ n يتضمن اختبارًا بسيطًا لقياس البصر ، مما يساعد المستخدمين على تحديد أي اختلافات في حدة البصر بين أعينهم. \ n \ n5-متعقب صحة العين: \ n يرسل تذكيرات للمستخدمين حول الآثار الضارة المحتملة لفترات طويلة قضاء وقت أمام الشاشات ، وتشجيعهم على أخذ فترات راحة منتظمة لا تقل عن 3 دقائق كل 40 دقيقة. كما يوفر تذكيرات لأدوية العين المجدولة. \ n \ n وصف الميزات: \ n \ n يجمع تطبيقنا بين التقنيات المتقدمة لتوفير تجربة شاملة للعناية بالعيون. إليك نظرة عامة على كل ميزة: \ n \ n * اكتشاف الأمراض: \ n يستفيد تطبيقنا من خوارزميات التعلم العميق وتقنيات معالجة الصور لتحديد أمراض العيون الشائعة ، بما في ذلك إعتام عدسة العين ، وانتفاخ العينين ، وجفاف العين ، وعمى العين ، والزرق. من خلال تحليل صور العين ، نقدم للمستخدمين تشخيصًا أوليًا ، وتمكينهم بمعلومات قيمة للحصول على الرعاية الطبية المناسبة. \ n \ n * السجل الطبي للعيون: \ n يمكن للمستخدمين إدخال وتتبع مشاكل العين السابقة ، مما يسمح لهم بمراقبة تقدمهم و تحديد ما إذا كانت حالتهم قد تحسنت بمرور الوقت أم أنها تتطلب مزيدًا من الاهتمام. \ n \ n * تمرين للعين: \ n يقدم تطبيقنا مجموعة من تمارين تخفيف إجهاد العين التي تهدف إلى تقليل إجهاد العين وتحسين الصحة العامة للعين. يمكن أن تساعد هذه التمارين في تخفيف الأعراض المرتبطة بالوقت المطول للشاشة والعوامل الأخرى التي تساهم في إزعاج العين. \ n \ n * عينك الإلكترونية: \ n تتضمن هذه الميزة اختبار عمى الألوان لتقييم قدرات رؤية الألوان لدى المستخدمين. بالإضافة إلى ذلك ، فإنه يوفر تمارين البصر لتحسين حدة البصر والحفاظ على صحة العيون. \ n \ n * قياس البصر: \ n من خلال إجراء اختبار بسيط ، يقيس تطبيقنا بصر المستخدمين ويساعد في تحديد أي اختلافات في الرؤية بين أعينهم. تساعد هذه الميزة في التعرف على نقاط الضعف المحتملة للعين أو تحديد ما إذا كانت كلتا العينين بصحة جيدة. \ n \ n * متعقب صحة العين: \ n يرسل التطبيق تذكيرات منتظمة للمستخدمين ، لإعلامهم بالآثار السلبية للتعرض للشاشة الإلكترونية لفترات طويلة على بصرهم . وتوصي بأخذ فترات راحة قصيرة لا تقل عن 3 دقائق بعد كل 40 دقيقة من الاستخدام المتواصل للشاشة. علاوة على ذلك ، فإنه يوفر تذكيرًا بأدوية العين الموصوفة ، مما يضمن بقاء المستخدمين على دراية بنظام العلاج الخاص بهم.";
+
+/* Class = "UILabel"; text = "Data Usage:"; ObjectID = "vTK-Wy-IgV"; */
+"vTK-Wy-IgV.text" = "استخدام البيانات:";
+
+/* Class = "UIButton"; configuration.title = "Optometry"; ObjectID = "w2O-BZ-FFB"; */
+"w2O-BZ-FFB.configuration.title" = "قياس البصر";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "w2O-BZ-FFB"; */
+"w2O-BZ-FFB.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Enter OTP Code"; ObjectID = "wDR-Bg-iWu"; */
+"wDR-Bg-iWu.text" = "ادخل رمز التاكيد";
+
+/* Class = "UILabel"; text = "Privacy and Security "; ObjectID = "wKu-Ti-0GM"; */
+"wKu-Ti-0GM.text" = "الخصوصيه والامان ";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "wQK-S1-nXa"; */
+"wQK-S1-nXa.title" = "الملف الشخصي ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xFl-Ow-ka0"; */
+"xFl-Ow-ka0.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Welcome , Shrouk"; ObjectID = "xVg-p8-RDS"; */
+"xVg-p8-RDS.text" = "Welcome , Shrouk";
+
+/* Class = "UILabel"; text = "Additional information about your eye diseases"; ObjectID = "xr2-po-QmO"; */
+"xr2-po-QmO.text" = "معلومات إضافية عن أمراض عينيك";
+
+/* Class = "UIButton"; configuration.title = "0"; ObjectID = "ynz-L8-376"; */
+"ynz-L8-376.configuration.title" = "0";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ynz-L8-376"; */
+"ynz-L8-376.normalTitle" = "زر";

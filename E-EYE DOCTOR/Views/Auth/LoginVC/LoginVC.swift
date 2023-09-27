@@ -69,9 +69,6 @@ class LoginVC: UIViewController {
             // Generate a 6-digit OTP
             let otp = String(format: "%06d", arc4random_uniform(1000000))
             
-            
-            // Send the OTP to the user's email using your preferred method (e.g., email service, API)
-            // Here, we use the Firebase Auth sendPasswordResetEmail function to send the OTP as a password reset email
             Auth.auth().sendPasswordReset(withEmail: email) { error in
                 if let error = error {
                     print("Failed to send OTP: \(error.localizedDescription)")

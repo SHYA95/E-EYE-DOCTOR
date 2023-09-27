@@ -8,13 +8,21 @@ import UIKit
 import UserNotifications
 
 class EyeCareViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { (granted, error) in
+            if let error = error {
+                print("Error requesting notification authorization: \(error)")
+            } else if granted {
+                print("Notification authorization granted.")
+            } else {
+                print("Notification authorization denied.")
+            }
+        }
     }
-    
+
     @IBAction func morningReminderTapped(_ sender: UIButton) {
-        scheduleLocalNotification(title: "Take Sunglasses", body: "If it's above 37°C, remind me to take my sunglasses.", hour: 9, minute: 0)
+        scheduleLocalNotification(title: "Take Sunglasses", body: "If it's above 37°C, remind me to take my sunglasses.", hour: 0, minute: 1)
     }
     
     @IBAction func nightReminderTapped(_ sender: UIButton) {
@@ -23,6 +31,9 @@ class EyeCareViewController: UIViewController {
     
     @IBAction func closePhoneReminderTapped(_ sender: UIButton) {
         scheduleLocalNotification(title: "Take a Rest", body: "Remind me to close my phone for 3 minutes every 45 minutes.", interval: 45 * 60)
+        
+        // Trigger the notification immediately
+        triggerImmediateNotification()
     }
     
     func scheduleLocalNotification(title: String, body: String, hour: Int, minute: Int) {
@@ -74,7 +85,24 @@ class EyeCareViewController: UIViewController {
             }
         }
     }
-   func showAlert(message: String) {
+    
+    func triggerImmediateNotification() {
+        let content = UNMutableNotificationContent()
+        content.title = "Take a Rest"
+        content.body = "It's time to close your phone for 3 minutes."
+        
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: nil)
+        
+        UNUserNotificationCenter.current().add(request) { (error) in
+            if let error = error {
+                print("Error triggering immediate notification: \(error)")
+            } else {
+                print("Immediate notification triggered successfully.")
+            }
+        }
+    }
+    
+    func showAlert(message: String) {
         let alertController = UIAlertController(title: "Reminder", message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
         alertController.addAction(okAction)

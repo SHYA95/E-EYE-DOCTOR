@@ -394,6 +394,9 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var view5: UIView!
     @IBOutlet weak var view6: UIView!
     
+    
+    @IBOutlet weak var Userview: UINavigationItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground

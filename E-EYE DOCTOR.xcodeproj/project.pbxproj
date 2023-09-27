@@ -34,14 +34,12 @@
 		2AE7D0F22A04C22E008D7D95 /* EyeScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E22A04C22D008D7D95 /* EyeScanningViewController.swift */; };
 		2AE7D0F32A04C22E008D7D95 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E32A04C22D008D7D95 /* DownloadsViewController.swift */; };
 		2AE7D0F42A04C22E008D7D95 /* YourEEyeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E42A04C22D008D7D95 /* YourEEyeViewController.swift */; };
-		2AE7D0F52A04C22E008D7D95 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E52A04C22D008D7D95 /* MainTabBarViewController.swift */; };
 		2AE7D0F62A04C22E008D7D95 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0E62A04C22D008D7D95 /* ProfileViewController.swift */; };
 		2AE7D0FC2A04C24A008D7D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7D0F82A04C24A008D7D95 /* LaunchScreen.storyboard */; };
 		2AE7D0FD2A04C24A008D7D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7D0FA2A04C24A008D7D95 /* Main.storyboard */; };
 		2AE7D1012A04C254008D7D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D0FF2A04C254008D7D95 /* AppDelegate.swift */; };
 		2AE7D1022A04C254008D7D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1002A04C254008D7D95 /* SceneDelegate.swift */; };
 		2AE7D1042A04C943008D7D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7D1032A04C943008D7D95 /* Assets.xcassets */; };
-		2AE7D1062A04E7FB008D7D95 /* Maintabbarvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1052A04E7FB008D7D95 /* Maintabbarvc.swift */; };
 		2AE7D10A2A04FDF9008D7D95 /* OptometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D1092A04FDF9008D7D95 /* OptometryViewController.swift */; };
 		2AE7D10D2A04FE6B008D7D95 /* EyeCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D10C2A04FE6B008D7D95 /* EyeCareViewController.swift */; };
 		2AE7D1102A04FEA8008D7D95 /* EyeRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7D10F2A04FEA8008D7D95 /* EyeRecordViewController.swift */; };
@@ -69,6 +67,8 @@
 		2AA612542A632ED800C51DF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2AA612562A63573500C51DF6 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
 		2AA6125A2A64349300C51DF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AA6125B2A66787300C51DF6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2AA6125C2A66787300C51DF6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		2ACA0BA92A54D3D2006F83D1 /* TestingEyeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingEyeVC.swift; sourceTree = "<group>"; };
 		2AE7D0B62A04C1E6008D7D95 /* E-EYE DOCTOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-EYE DOCTOR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE7D0C72A04C1E8008D7D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,14 +87,12 @@
 		2AE7D0E22A04C22D008D7D95 /* EyeScanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeScanningViewController.swift; sourceTree = "<group>"; };
 		2AE7D0E32A04C22D008D7D95 /* DownloadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		2AE7D0E42A04C22D008D7D95 /* YourEEyeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourEEyeViewController.swift; sourceTree = "<group>"; };
-		2AE7D0E52A04C22D008D7D95 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		2AE7D0E62A04C22D008D7D95 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2AE7D0F92A04C24A008D7D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AE7D0FB2A04C24A008D7D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AE7D0FF2A04C254008D7D95 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AE7D1002A04C254008D7D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2AE7D1032A04C943008D7D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2AE7D1052A04E7FB008D7D95 /* Maintabbarvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maintabbarvc.swift; sourceTree = "<group>"; };
 		2AE7D1092A04FDF9008D7D95 /* OptometryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptometryViewController.swift; sourceTree = "<group>"; };
 		2AE7D10C2A04FE6B008D7D95 /* EyeCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCareViewController.swift; sourceTree = "<group>"; };
 		2AE7D10F2A04FEA8008D7D95 /* EyeRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeRecordViewController.swift; sourceTree = "<group>"; };
@@ -282,9 +280,7 @@
 				2AE7D0E22A04C22D008D7D95 /* EyeScanningViewController.swift */,
 				2AE7D0E32A04C22D008D7D95 /* DownloadsViewController.swift */,
 				2AE7D0E42A04C22D008D7D95 /* YourEEyeViewController.swift */,
-				2AE7D0E52A04C22D008D7D95 /* MainTabBarViewController.swift */,
 				2AE7D0E62A04C22D008D7D95 /* ProfileViewController.swift */,
-				2AE7D1052A04E7FB008D7D95 /* Maintabbarvc.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -404,6 +400,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 2AE7D0AD2A04C1E6008D7D95;
 			productRefGroup = 2AE7D0B72A04C1E6008D7D95 /* Products */;
@@ -500,8 +497,6 @@
 				2AE7D10A2A04FDF9008D7D95 /* OptometryViewController.swift in Sources */,
 				2AE7D0ED2A04C22E008D7D95 /* LoginApi.swift in Sources */,
 				2A1A92FD2A53948500F40F96 /* ColorTestVC.swift in Sources */,
-				2AE7D0F52A04C22E008D7D95 /* MainTabBarViewController.swift in Sources */,
-				2AE7D1062A04E7FB008D7D95 /* Maintabbarvc.swift in Sources */,
 				2AE7D0CF2A04C211008D7D95 /* CorrnerRaduisEX.swift in Sources */,
 				2AE7D1012A04C254008D7D95 /* AppDelegate.swift in Sources */,
 				2A0A48042A4FB1AE008C0042 /* ClassificationAnswer.swift in Sources */,
@@ -526,6 +521,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2AE7D0F92A04C24A008D7D95 /* Base */,
+				2AA6125B2A66787300C51DF6 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -535,6 +531,7 @@
 			children = (
 				2AE7D0FB2A04C24A008D7D95 /* Base */,
 				2AA6125A2A64349300C51DF6 /* en */,
+				2AA6125C2A66787300C51DF6 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -546,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -606,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

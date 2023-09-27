@@ -67,9 +67,13 @@ class EyeScanningViewController: UIViewController, UICollectionViewDataSource, U
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "Classification Answer"
         textField.borderStyle = .roundedRect
+        textField.font = UIFont.systemFont(ofSize: 36, weight: .bold)
+        textField.textColor = .darkGray
+//        textField.textColor = UIColor(red: 0.325, green: 0.706, blue: 0.714, alpha: 1)
+        textField.textAlignment = .center
         return textField
     }()
-    
+
     private let cellReuseIdentifier = "MyCell"
     
     override func viewDidLoad() {
@@ -107,7 +111,7 @@ class EyeScanningViewController: UIViewController, UICollectionViewDataSource, U
         view.addSubview(imageView)
         
         NSLayoutConstraint.activate([
-            imageView.topAnchor.constraint(equalTo: collectionView.bottomAnchor, constant: 16),
+            imageView.topAnchor.constraint(equalTo: collectionView.bottomAnchor, constant: 8),
             imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             imageView.widthAnchor.constraint(equalToConstant: 300),
             imageView.heightAnchor.constraint(equalToConstant: 300)
@@ -129,7 +133,7 @@ class EyeScanningViewController: UIViewController, UICollectionViewDataSource, U
         view.addSubview(classificationTextField)
         
         NSLayoutConstraint.activate([
-            classificationTextField.topAnchor.constraint(equalTo: classifyButton.bottomAnchor, constant: 16),
+            classificationTextField.topAnchor.constraint(equalTo: classifyButton.bottomAnchor, constant: 8),
             classificationTextField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             classificationTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             classificationTextField.heightAnchor.constraint(equalToConstant: 40)
@@ -254,6 +258,7 @@ class EyeScanningViewController: UIViewController, UICollectionViewDataSource, U
         if let classificationResult = performClassification(image) {
             classificationTextField.text = classificationResult
         } else {
+//            classificationTextField.text = "Normal eye"
             if tapCounter < 5 {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                     self.classifyButtonTapped()
